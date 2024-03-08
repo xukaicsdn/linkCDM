@@ -1,0 +1,30 @@
+feature: 用户相关
+story: 注册
+
+
+title: ${title}
+
+
+request:
+  method: POST
+  url: /login/sign_up
+  json:
+    email: ${email}            # 1. 参数使用变量
+    password: ${str(password)} # 1. 参数使用变量
+
+extract:
+  code: [ status_code, (.*), 0 ]
+
+validate:
+  equals: # 断言相等
+    状态码断言:
+      - ${assert_code}         # 2. 断言也使用变量
+      - ${code}
+
+post_function: check_http_ok
+parametrize:
+  - ["title","email", "password","assert_code"]
+  - ["账号为空", "", "11111111", 422]
+  - ["密码均为空", "1111111@qq.com", "", 422]
+  - ["账号不符合邮箱规则", "11111111", "1111111", 422]
+  - ["注册成功", "bf@qq.com", "bf123456", 200 ]

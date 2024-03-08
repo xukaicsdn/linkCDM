@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pytest-result-log
+Version: 1.0.0
+Summary: Write the execution result of the case to the log
+License: Apache-2.0
+Author-email: dongfangtianyu <7629022+dongfangtianyu@users.noreply.github.com>
+Requires-Python: >=3.10
+Requires-Dist: pytest>=7.2.0
+Project-URL: Homepage, https://github.com/dongfangtianyu/pytest_result_log
+Description-Content-Type: text/markdown
+
+# pytest-result-log
+
+为了日志中记录每个用例的执行结果，业内提出了很多解决方法，比如在用例步骤中加入日志记录代码、定义后置运行的fixure，
+
+
+但是这些方案有一个弊端：因-k未选中、skip跳过、fixture错误等原因，有真正没有执行的用例，是无法在日志记录结果的。
+
+
+
+
+pytest-result-log是sanmu框架孵化的第三个pytest插件，
+
+通过hook钩子的方式，可以准确判断所有类型的用例执行结果，并记录到日志文件中，效果如下
+
+
+
+## 文档
+
+- [专栏：《pytest-result-log》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkxMDIyODUwOA==&action=getalbum&album_id=2742836452161503235&scene=173&from_msgid=2247483961&from_itemidx=1&count=3&nolastread=1#wechat_redirect)
+- [pytest-result-log：把用例执行结果保存到日志的 pytest 插件](https://mp.weixin.qq.com/s/cp3rdKJb0Eglz0jIhZ6ZHw)
+
+
+## 联系作者
+
+如果在使用过程中遇到什么问题，欢迎通过以下方式联系：
+
+-   **Github**：https://github.com/dongfangtianyu/pytest_result_log/issues/new
+-   **WeiXin**:  python_sanmu
+
+

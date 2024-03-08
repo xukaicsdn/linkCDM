@@ -1,0 +1,11 @@
+INFO     2024-03-08 14:50:26 [pytest_result_log:139]  : test status is PASSED (conftest.py::test_a): None
+INFO     2024-03-08 14:50:26 [pytest_result_log:139]  : test status is PASSED (conftest.py::test_b): None
+03-08 14:50:26 [root:110]  : id=94
+WARNING  2024-03-08 14:50:26 [root:112]  : ip_addr='192.168.2.44'
+WARNING  2024-03-08 14:50:26 [root:114]  : os=1
+WARNING  2024-03-08 14:50:26 [root:116]  : os_version='redhat rhel 7.6'
+WARNING  2024-03-08 14:50:26 [root:118]  : version='v1.8.0-3+3d695a08027f3f'
+WARNING  2024-03-08 14:50:26 [root:120]  : iqn='iqn.1994-05.com.redhat:b96dac1633f0'
+INFO     2024-03-08 14:50:26 [pytest_result_log:139]  : test status is PASSED (conftest.py::test_a): None
+WARNING  2024-03-08 14:50:26 [root:124]  : 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0
+INFO     2024-03-08 14:50:26 [pytest_result_log:139]  : test status is PASSED (conftest.py::test_b): None

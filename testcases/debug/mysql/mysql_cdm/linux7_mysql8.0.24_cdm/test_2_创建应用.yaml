@@ -1,0 +1,45 @@
+feature: mysqlCDM备份恢复
+title: 创建mysql8.0.27应用
+
+#color:
+#  - &red-color red
+#  - yellow
+#  - blue
+#  - *red-color
+#  - gray
+
+
+fixture_code:
+  - init_function
+
+request:
+  method: POST
+  url: /api/admin.v1.Application/Add
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    name: mysql44 init_function["init_function"] # ${generate_random_str(3)}
+    kind: 2
+    spec: >-
+      {"spec":"mysql","ip":"${ip}","port":${port},"username":"${username}","password":"${base64_b64encode(${password})}","config":"/etc/my.cnf"}
+    lblets:
+      - "94"
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  application_id: [json, $.data, 0]
+
+# 注意注意：如果断言失败不会在往下执行了，也就是说不会再去执行post_function这一步，但会继续执行下边的用例
+# 可以注释掉断言，直接用post_function去检查一样的
+#validate:
+#  equals:
+#    状态码断言:
+#      - 200
+#      - ${code}
+
+parametrize: # 如果既想参数化又想保整业务流执行，正确的用例一定要放在最下边
+  - ["ip","port", "username","password"]
+#  - ["192.168.2.44", 3302, "root", "U0c5M2JHbHVhMEF4TkRBeA=="]
+  - ["192.168.2.44", 3306, "root", "Howlink@1401"]
+
+post_function: check_http_ok # 这个必须检查，因为客户端离线或者啥的就不要在往下执行了结束这一线程

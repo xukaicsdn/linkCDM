@@ -1,0 +1,58 @@
+INFO     2024-03-08 13:51:05,282 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_1_cdm登录.yaml')
+INFO     2024-03-08 13:51:05,283 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7AB336D0>
+INFO     2024-03-08 13:51:05,284 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_2_创建应用.yaml')
+INFO     2024-03-08 13:51:05,289 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7B8697E0>
+INFO     2024-03-08 13:51:05,289 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_3_创建策略.yaml')
+INFO     2024-03-08 13:51:05,292 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7B869870>
+INFO     2024-03-08 13:51:05,292 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_4_创建策略任务.yaml')
+INFO     2024-03-08 13:51:05,293 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7B869900>
+INFO     2024-03-08 13:51:05,293 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_5_删除策略.yaml')
+INFO     2024-03-08 13:51:05,295 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7B869990>
+INFO     2024-03-08 13:51:05,295 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_6_删除应用.yaml')
+INFO     2024-03-08 13:51:05,296 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x000002BE7B869A20>
+INFO     2024-03-08 13:51:05,463 [commons.cases:76]  : {}
+INFO     2024-03-08 13:51:05,463 [commons.cases:77]  : uuuuuuuuuuuuu
+INFO     2024-03-08 13:51:05,463 [commons.cases:88]  : =================================用例开始执行: cdm登录==================================
+INFO     2024-03-08 13:51:05,464 [commons.cases:92]  : 1. 正在注入变量...
+INFO     2024-03-08 13:51:05,464 [commons.cases:96]  : 2. 正在请求接口...
+INFO     2024-03-08 13:51:05,466 [requests.session:50]  : 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.User/Login
+INFO     2024-03-08 13:51:05,466 [requests.session:51]  : 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '59', 'Content-Type': 'application/json'}
+INFO     2024-03-08 13:51:05,466 [requests.session:52]  : 发送请求>>>>>> 请求正文 = b'{"password": "U0c5M2JHbHVhMEF4TkRBeA==", "username": "poi"}'
+INFO     2024-03-08 13:51:05,598 [requests.session:56]  : 接收响应      <<<<<< 状态码 = 200
+INFO     2024-03-08 13:51:05,598 [requests.session:57]  : 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Content-Length': '294', 'Content-Type': 'application/json', 'Date': 'Fri, 08 Mar 2024 05:51:03 GMT'}
+INFO     2024-03-08 13:51:05,598 [requests.session:58]  : 接收响应      <<<<<< 响应正文 = {"code":200,"msg":"登录成功","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzA5OTIwMjYzLCJpYXQiOjE3MDk4NzcwNjMsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.dxRBR3-ryDLyYzout6xzxyPNTjGRj8L84zo94ZVWpGw","ip":"192.168.2.144","lastLoginSuccessTime":"1709876894100996636"}
+INFO     2024-03-08 13:51:05,598 [commons.cases:100]  : 3. 正在提取变量...
+INFO     2024-03-08 13:51:05,602 [commons.cases:109]  : 4. 正在断言...
+INFO     2024-03-08 13:51:05,603 [commons.models:100]  : assert 200 == 200, 状态码断言
+INFO     2024-03-08 13:51:05,603 [commons.cases:114]  : =================================用例执行结束: cdm登录==================================
+INFO     2024-03-08 13:51:05,603 [pytest_result_log:139]  : test status is PASSED (main.py::TestLinuxMysql5_5CDM::test_1_cdm登录.yaml[cdm登录]): None
+WARNING  2024-03-08 13:51:05,633 [root:104]  : sql='\n        SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn\n        FROM public.lblet\n        WHERE ip_addr=\'192.168.2.44\';\n        '
+WARNING  2024-03-08 13:51:05,651 [root:110]  : id=94
+WARNING  2024-03-08 13:51:05,651 [root:112]  : ip_addr='192.168.2.44'
+WARNING  2024-03-08 13:51:05,651 [root:114]  : os=1
+WARNING  2024-03-08 13:51:05,652 [root:116]  : os_version='redhat rhel 7.6'
+WARNING  2024-03-08 13:51:05,652 [root:118]  : version='v1.8.0-3+3d695a08027f3f'
+WARNING  2024-03-08 13:51:05,652 [root:120]  : iqn='iqn.1994-05.com.redhat:b96dac1633f0'
+INFO     2024-03-08 13:51:05,652 [commons.cases:76]  : {'init_function': (94, '192.168.2.44', 1, 'redhat rhel 7.6', 'v1.8.0-3+3d695a08027f3f', 'iqn.1994-05.com.redhat:b96dac1633f0')}
+INFO     2024-03-08 13:51:05,652 [commons.cases:77]  : uuuuuuuuuuuuu
+INFO     2024-03-08 13:51:05,652 [commons.cases:88]  : ============================用例开始执行: 创建mysql8.0.27应用=============================
+INFO     2024-03-08 13:51:05,653 [commons.cases:92]  : 1. 正在注入变量...
+INFO     2024-03-08 13:51:05,653 [commons.cases:96]  : 2. 正在请求接口...
+INFO     2024-03-08 13:51:05,654 [requests.session:50]  : 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.Application/Add
+INFO     2024-03-08 13:51:05,654 [requests.session:51]  : 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzA5OTIwMjYzLCJpYXQiOjE3MDk4NzcwNjMsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.dxRBR3-ryDLyYzout6xzxyPNTjGRj8L84zo94ZVWpGw', 'Content-Length': '238', 'Content-Type': 'application/json'}
+INFO     2024-03-08 13:51:05,654 [requests.session:52]  : 发送请求>>>>>> 请求正文 = b'{"kind": 2, "lblets": ["94"], "name": "mysql44_${init_function[1]}", "spec": "{\\"spec\\":\\"mysql\\",\\"ip\\":\\"192.168.2.44\\",\\"port\\":3306,\\"username\\":\\"root\\",\\"password\\":\\"${base64_b64encode(Howlink@1401)}\\",\\"config\\":\\"/etc/my.cnf\\"}"}'
+INFO     2024-03-08 13:51:05,668 [requests.session:56]  : 接收响应      <<<<<< 状态码 = 500
+INFO     2024-03-08 13:51:05,668 [requests.session:57]  : 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Date': 'Fri, 08 Mar 2024 05:51:03 GMT', 'Content-Length': '114', 'Content-Type': 'text/plain; charset=utf-8'}
+INFO     2024-03-08 13:51:05,668 [requests.session:58]  : 接收响应      <<<<<< 响应正文 = {"id":"go.vine.client","code":500,"detail":"illegal base64 data at input byte 0","status":"Internal Server Error"}
+INFO     2024-03-08 13:51:05,668 [commons.cases:100]  : 3. 正在提取变量...
+INFO     2024-03-08 13:51:05,670 [commons.cases:109]  : 4. 正在断言...
+INFO     2024-03-08 13:51:05,671 [commons.cases:114]  : ============================用例执行结束: 创建mysql8.0.27应用=============================
+WARNING  2024-03-08 13:51:05,671 [commons.cases:118]  : [95m准备进行结果检查......[0m
+INFO     2024-03-08 13:51:05,671 [commons.cases:123]  : [95mpost_function(check_http_ok)返回值为: False[0m
+ERROR    2024-03-08 13:51:05,671 [commons.cases:129]  : 用例执行结果：失败！
+ERROR    2024-03-08 13:51:05,766 [pytest_result_log:139]  : test status is FAILED (main.py::TestLinuxMysql5_5CDM::test_2_创建应用.yaml[创建mysql8.0.27应用]): AssertionError
+WARNING  2024-03-08 13:51:05,767 [root:125]  : 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0
+WARNING  2024-03-08 13:51:05,774 [pytest_result_log:139]  : test status is SKIPPED (main.py::TestLinuxMysql5_5CDM::test_3_创建策略.yaml[创建mysql8.0.27策略]): Skipped: 停止线程
+WARNING  2024-03-08 13:51:05,779 [pytest_result_log:139]  : test status is SKIPPED (main.py::TestLinuxMysql5_5CDM::test_4_创建策略任务.yaml[创建mysql8.0.27策略任务]): Skipped: 停止线程
+WARNING  2024-03-08 13:51:05,781 [pytest_result_log:139]  : test status is SKIPPED (main.py::TestLinuxMysql5_5CDM::test_5_删除策略.yaml[删除mysql8.0.27策略]): Skipped: 停止线程
+WARNING  2024-03-08 13:51:05,785 [pytest_result_log:139]  : test status is SKIPPED (main.py::TestLinuxMysql5_5CDM::test_6_删除应用.yaml[删除mysql8.0.27应用]): Skipped: 停止线程

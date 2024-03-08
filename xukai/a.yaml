@@ -1,0 +1,20 @@
+clientA: &A
+  json:
+    !include ./b.yaml      #这里调用了b.yaml文件的内容
+
+request:
+  method: POST
+  url: /api/admin.v1.User/Login?fixture=${init_class}
+  json: &B
+    username: poi
+    password: U0c5M2JHbHVhMEF4TkRBeA==
+
+
+aaaaaaaaaa:
+
+  json:  # 重写hobby
+    <<: *A
+    eat: fish
+#    - Table-Tennis
+#    - swimming
+#    - <<: *B

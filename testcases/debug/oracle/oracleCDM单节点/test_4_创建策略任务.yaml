@@ -1,0 +1,24 @@
+feature: mysqlCDM备份恢复
+title: 创建mysql8.0.27策略任务
+
+
+request:
+  method: POST
+  url: /api/admin.v1.Event/Get
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    id: ${create_strategy_event_id}
+
+
+
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  strategy_id: [json, $.data.strategyId, 0]
+
+validate:
+  equals:
+    状态码断言:
+      - 200
+      - ${code}

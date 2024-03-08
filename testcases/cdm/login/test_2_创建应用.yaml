@@ -1,0 +1,40 @@
+feature: mysqlCDM备份恢复
+title: 创建mysql应用
+
+#parameters: !include ./parameters.yaml
+
+#color:
+#  - &red-color red
+#  - yellow
+#  - blue
+#  - *red-color
+#  - gray
+
+
+fixture_code:
+  - init_function
+
+request:
+  method: POST
+  url: /api/admin.v1.Application/Add
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    name: mar48${generate_random_str(3)}
+    kind: 2
+    spec: >-
+      {"spec":"mariadb","ip":"${thread_variable(mysqlCDM, ip)}","port":3306,"username":"root","password":"Howlink@1401"}
+    lblets:
+      - "94"
+
+
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  application_id: [json, $.data, 0]
+
+validate:
+  equals:
+    状态码断言:
+      - 200
+      - ${code}

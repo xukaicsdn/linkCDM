@@ -1,0 +1,45 @@
+feature: mysqlCDM备份恢复
+title: 创建mysql8.0.34策略
+
+
+request:
+  method: POST
+  url: /api/admin.v1.ProtectionStrategy/Add
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    backupKind: 1
+    datasets:
+      - backupKind: 1
+        appKind: 2
+        protectedObjects:
+          - targetId: ${application_id}
+            targetType: 1
+            lbletId: "161"
+        protectionCapacity: 10737418240
+    poolID: 34
+    protocol: 1
+    protocolValue: iqn.1994-05.com.redhat:b96dac1633f0
+    sla:
+      chain: "{\"keep\":1,\"goldenCopyLeastNumber\":7}"
+    logPeriod: 0
+    password: ""
+    applicationID: ${application_id}
+    name: my176
+    cronExpression: "* * * * ?"
+    able: false
+
+
+
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  create_strategy_event_id: [json, $.data, 0]
+
+validate:
+  equals:
+    状态码断言:
+      - 200
+      - ${code}
+
+post_function: check_create_ok # 检查是否创建成功的函数

@@ -1,0 +1,15 @@
+[32mINFO    [0m commons.cases:cases.py:76 {}
+[32mINFO    [0m commons.cases:cases.py:77 uuuuuuuuuuuuu
+[32mINFO    [0m commons.cases:cases.py:88 ============================用例开始执行: 删除mysql8.0.27策略=============================
+[32mINFO    [0m commons.cases:cases.py:92 1. 正在注入变量...
+[32mINFO    [0m commons.cases:cases.py:96 2. 正在请求接口...
+[32mINFO    [0m requests.session:session.py:50 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.ProtectionStrategy/Delete
+[32mINFO    [0m requests.session:session.py:51 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzA5OTIxMDIxLCJpYXQiOjE3MDk4Nzc4MjEsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.hIVSxSWfvfQ-FSipwPESsaWBWMagsXEaZM_JvZKyXcI', 'Content-Length': '12', 'Content-Type': 'application/json'}
+[32mINFO    [0m requests.session:session.py:52 发送请求>>>>>> 请求正文 = b'{"id": 2909}'
+[32mINFO    [0m requests.session:session.py:56 接收响应      <<<<<< 状态码 = 200
+[32mINFO    [0m requests.session:session.py:57 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Content-Length': '46', 'Content-Type': 'application/json', 'Date': 'Fri, 08 Mar 2024 06:05:22 GMT'}
+[32mINFO    [0m requests.session:session.py:58 接收响应      <<<<<< 响应正文 = {"code":200,"msg":"success","data":["142452"]}
+[32mINFO    [0m commons.cases:cases.py:100 3. 正在提取变量...
+[32mINFO    [0m commons.cases:cases.py:109 4. 正在断言...
+[32mINFO    [0m commons.models:models.py:100 assert 200 == 200, 状态码断言
+[32mINFO    [0m commons.cases:cases.py:114 ============================用例执行结束: 删除mysql8.0.27策略=============================

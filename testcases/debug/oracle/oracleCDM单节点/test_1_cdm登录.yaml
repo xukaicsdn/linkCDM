@@ -1,0 +1,28 @@
+feature: mysqlCDM备份恢复
+title: cdm登录
+
+# 这是一个普通得用例，增加一个新的字段
+fixture_code:   # 指定要使用的fixture
+  - init_function
+#  - gggg
+
+
+request:
+  method: POST
+  url: /api/admin.v1.User/Login
+  json:
+    username: poi
+    password: U0c5M2JHbHVhMEF4TkRBeA==
+
+
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  access_token: [json, $.data, 0]
+
+validate:
+  equals:
+    状态码断言:
+      - 200
+      - ${code}
+

@@ -1,0 +1,9 @@
+pyyaml
+pytest
+requests
+jsonpath
+lxml
+pymysql
+rsa
+pytest-result-log>=1.0.0
+allure-pytest>=2.10.0

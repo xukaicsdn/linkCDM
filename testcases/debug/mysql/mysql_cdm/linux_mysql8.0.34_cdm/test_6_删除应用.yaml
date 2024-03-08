@@ -1,0 +1,22 @@
+feature: mysqlCDM备份恢复
+title: 删除mysql8.0.34应用
+
+
+request:
+  method: POST
+  url: /api/admin.v1.Application/Delete
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    id: ${application_id}
+
+
+
+extract:
+  code: [ status_code, (.*), 0 ]
+
+validate:
+  equals:
+    状态码断言:
+      - 200
+      - ${code}

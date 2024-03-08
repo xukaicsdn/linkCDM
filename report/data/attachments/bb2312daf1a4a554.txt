@@ -1,0 +1,24 @@
+[33mWARNING [0m root:conftest.py:104 sql='\n        SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn\n        FROM public.lblet\n        WHERE ip_addr=\'192.168.2.44\';\n        '
+[33mWARNING [0m root:conftest.py:110 id=94
+[33mWARNING [0m root:conftest.py:112 ip_addr='192.168.2.44'
+[33mWARNING [0m root:conftest.py:114 os=1
+[33mWARNING [0m root:conftest.py:116 os_version='redhat rhel 7.6'
+[33mWARNING [0m root:conftest.py:118 version='v1.8.0-3+3d695a08027f3f'
+[33mWARNING [0m root:conftest.py:120 iqn='iqn.1994-05.com.redhat:b96dac1633f0'
+[32mINFO    [0m commons.cases:cases.py:76 {'init_function': '192.168.2.44'}
+[32mINFO    [0m commons.cases:cases.py:77 uuuuuuuuuuuuu
+[32mINFO    [0m commons.cases:cases.py:88 ============================用例开始执行: 创建mysql8.0.27应用=============================
+[32mINFO    [0m commons.cases:cases.py:92 1. 正在注入变量...
+[32mINFO    [0m commons.cases:cases.py:96 2. 正在请求接口...
+[32mINFO    [0m requests.session:session.py:50 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.Application/Add
+[32mINFO    [0m requests.session:session.py:51 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzA5OTIxMDIxLCJpYXQiOjE3MDk4Nzc4MjEsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.hIVSxSWfvfQ-FSipwPESsaWBWMagsXEaZM_JvZKyXcI', 'Content-Length': '217', 'Content-Type': 'application/json'}
+[32mINFO    [0m requests.session:session.py:52 发送请求>>>>>> 请求正文 = b'{"kind": 2, "lblets": ["94"], "name": "mysql44 ip_addr", "spec": "{\\"spec\\":\\"mysql\\",\\"ip\\":\\"192.168.2.44\\",\\"port\\":3306,\\"username\\":\\"root\\",\\"password\\":\\"U0c5M2JHbHVhMEF4TkRBeA==\\",\\"config\\":\\"/etc/my.cnf\\"}"}'
+[32mINFO    [0m requests.session:session.py:56 接收响应      <<<<<< 状态码 = 200
+[32mINFO    [0m requests.session:session.py:57 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Content-Length': '42', 'Content-Type': 'application/json', 'Date': 'Fri, 08 Mar 2024 06:03:41 GMT'}
+[32mINFO    [0m requests.session:session.py:58 接收响应      <<<<<< 响应正文 = {"code":200,"msg":"success","data":"1575"}
+[32mINFO    [0m commons.cases:cases.py:100 3. 正在提取变量...
+[32mINFO    [0m commons.cases:cases.py:109 4. 正在断言...
+[32mINFO    [0m commons.cases:cases.py:114 ============================用例执行结束: 创建mysql8.0.27应用=============================
+[33mWARNING [0m commons.cases:cases.py:118 [95m准备进行结果检查......[0m
+[32mINFO    [0m commons.cases:cases.py:123 [95mpost_function(check_http_ok)返回值为: True[0m
+[33mWARNING [0m root:conftest.py:126 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0

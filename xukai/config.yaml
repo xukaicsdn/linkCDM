@@ -1,0 +1,24 @@
+# login_fixture.yaml
+fixture_code:
+  - |
+    import pytest
+
+    @pytest.fixture(scope="function")
+    def login():
+        print("====总conftest文件 登录功能，返回账号，token===")
+        name = ["testyy", "testjj"]
+        token = "npoi213bn4"
+        yield name, token
+        print("====总conftest文件 退出登录！！！====")
+
+  - |
+    import pytest
+
+    @pytest.fixture(scope="function")
+    def login01():
+        print("====总conftest文件 登录功能，返回账号，token===")
+        name = ["testyyyyy", "testjjjjj"]
+        token = "npoi213bn4fffffffffffffffffffff"
+        yield name, token
+        print("====总conftest文件 退出登录！！！====")
+

@@ -1,0 +1,28 @@
+feature: 用户相关
+story: 登录
+
+title: ${title}
+
+
+request:
+  method: POST
+  url: /login/access_token
+  json:
+    email: ${email}            # 1. 参数使用变量
+    password: ${str(password)} # 1. 参数使用变量
+
+extract:
+  code: [ status_code, (.*), 0 ]
+
+validate:
+  equals: # 断言相等
+    状态码断言:
+      - ${assert_code}         # 2. 断言也使用变量
+      - ${code}
+
+parametrize:
+  - ["title","email", "password","assert_code"]
+  - ["密码均为空", "1111111@qq.com", "", 422]
+  - ["账号不符合邮箱规则", "11111111", "1111111", 422]
+  - ["登录成功", "bf@qq.com", "bf123456", 200 ]
+  - ["密码错误", "bf123@qq.com", "11111111", 400 ]

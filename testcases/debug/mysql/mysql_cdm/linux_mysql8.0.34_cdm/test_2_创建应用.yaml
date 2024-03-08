@@ -1,0 +1,35 @@
+feature: mysqlCDM备份恢复
+title: 创建mysql8.0.34应用
+
+
+#fixture_code:
+#  - init_function
+
+request:
+  method: POST
+  url: /api/admin.v1.Application/Add
+  headers:
+    Authorization: Bearer ${access_token}
+  json:
+    name: mysql176
+    kind: 2
+    spec: >-
+      {"spec":"mysql","ip":"${ip}","port":${port},"username":"${username}","password":"${base64_b64encode(${password})}","config":"/etc/my.cnf"}
+    lblets:
+      - "161"
+
+extract:
+  code: [ status_code, (.*), 0 ]
+  application_id: [json, $.data, 0]
+
+#validate:
+#  equals:
+#    状态码断言:
+#      - 200
+#      - ${code}
+
+parametrize: # 如果既想参数化又想保整业务流执行，正确的用例一定要放在最下边一行
+  - ["ip","port", "username","password"]
+  - ["192.168.141.176", 3306, "root", "Howlink@1401"]
+
+post_function: check_http_ok # 这个必须检查，因为，客户端离线或者啥的就不要在往下执行了结束这一线程
