@@ -1,0 +1,15 @@
+[32mINFO    [0m commons.cases:cases.py:80 {}
+[32mINFO    [0m commons.cases:cases.py:81 uuuuuuuuuuuuu
+[32mINFO    [0m commons.cases:cases.py:92 =================================用例开始执行: cdm登录==================================
+[32mINFO    [0m commons.cases:cases.py:96 1. 正在注入变量...
+[32mINFO    [0m commons.cases:cases.py:100 2. 正在请求接口...
+[32mINFO    [0m requests.session:session.py:50 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.User/Login
+[32mINFO    [0m requests.session:session.py:51 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '59', 'Content-Type': 'application/json'}
+[32mINFO    [0m requests.session:session.py:52 发送请求>>>>>> 请求正文 = b'{"password": "U0c5M2JHbHVhMEF4TkRBeA==", "username": "poi"}'
+[32mINFO    [0m requests.session:session.py:56 接收响应      <<<<<< 状态码 = 200
+[32mINFO    [0m requests.session:session.py:57 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Content-Length': '294', 'Content-Type': 'application/json', 'Date': 'Mon, 11 Mar 2024 01:54:28 GMT'}
+[32mINFO    [0m requests.session:session.py:58 接收响应      <<<<<< 响应正文 = {"code":200,"msg":"登录成功","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzEwMTY1MjY4LCJpYXQiOjE3MTAxMjIwNjgsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.8eGq9E3WHT73naitnwDuE_IRtZB87mqW4v8r9I2z-RE","ip":"192.168.2.144","lastLoginSuccessTime":"1710120741373538194"}
+[32mINFO    [0m commons.cases:cases.py:104 3. 正在提取变量...
+[32mINFO    [0m commons.cases:cases.py:113 4. 正在断言...
+[32mINFO    [0m commons.models:models.py:101 assert 200 == 200, 状态码断言
+[32mINFO    [0m commons.cases:cases.py:118 =================================用例执行结束: cdm登录==================================

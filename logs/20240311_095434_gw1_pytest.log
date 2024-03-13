@@ -1,0 +1,12 @@
+INFO     2024-03-11 09:54:34,758 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_1_cdm登录.yaml')
+INFO     2024-03-11 09:54:34,760 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D56AF6D0>
+INFO     2024-03-11 09:54:34,760 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_2_创建应用.yaml')
+INFO     2024-03-11 09:54:34,765 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D63E9A20>
+INFO     2024-03-11 09:54:34,766 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_3_创建策略.yaml')
+INFO     2024-03-11 09:54:34,768 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D63E9AB0>
+INFO     2024-03-11 09:54:34,768 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_4_创建策略任务.yaml')
+INFO     2024-03-11 09:54:34,770 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D63E9B40>
+INFO     2024-03-11 09:54:34,770 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_5_删除策略.yaml')
+INFO     2024-03-11 09:54:34,771 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D63E9BD0>
+INFO     2024-03-11 09:54:34,771 [commons.cases:35]  : load file yaml_path=WindowsPath('testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_6_删除应用.yaml')
+INFO     2024-03-11 09:54:34,773 [commons.cases:45]  : <function TestApi.new_case.<locals>.test_func at 0x00000239D63E9C60>

@@ -9,8 +9,8 @@ title: 创建mysql8.0.27应用
 #  - gray
 
 
-fixture_code:
-  - init_function
+#fixture_code:
+#  - init_function(ip='192.168.2.44')
 
 request:
   method: POST
@@ -18,12 +18,12 @@ request:
   headers:
     Authorization: Bearer ${access_token}
   json:
-    name: mysql44 init_function["init_function"] # ${generate_random_str(3)}
+    name: mysql44 # ${generate_random_str(3)}
     kind: 2
     spec: >-
       {"spec":"mysql","ip":"${ip}","port":${port},"username":"${username}","password":"${base64_b64encode(${password})}","config":"/etc/my.cnf"}
     lblets:
-      - "94"
+      - "${get_lblet_info(192.168.2.44, id)}"
 
 extract:
   code: [ status_code, (.*), 0 ]

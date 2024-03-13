@@ -1,8 +1,0 @@
-[33mWARNING [0m root:conftest.py:104 sql='\n        SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn\n        FROM public.lblet\n        WHERE ip_addr=\'192.168.2.44\';\n        '
-[33mWARNING [0m root:conftest.py:110 id=94
-[33mWARNING [0m root:conftest.py:112 ip_addr='192.168.2.44'
-[33mWARNING [0m root:conftest.py:114 os=1
-[33mWARNING [0m root:conftest.py:116 os_version='redhat rhel 7.6'
-[33mWARNING [0m root:conftest.py:118 version='v1.8.0-3+3d695a08027f3f'
-[33mWARNING [0m root:conftest.py:120 iqn='iqn.1994-05.com.redhat:b96dac1633f0'
-[33mWARNING [0m root:conftest.py:124 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0

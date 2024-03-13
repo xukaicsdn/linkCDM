@@ -1,19 +1,19 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Mar 08 14:03:43 CST 2024","Fri Mar 08 14:03:43 CST 2024","102","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27应用","
+"passed","Mon Mar 11 09:56:15 CST 2024","Mon Mar 11 09:56:15 CST 2024","228","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27策略任务","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "
-"passed","Fri Mar 08 14:05:24 CST 2024","Fri Mar 08 14:05:24 CST 2024","107","","main","TestLinuxMysql5_5CDM","","","删除mysql8.0.27策略","
+"passed","Mon Mar 11 09:56:15 CST 2024","Mon Mar 11 09:56:15 CST 2024","101","","main","TestLinuxMysql5_5CDM","","","删除mysql8.0.27策略","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "
-"passed","Fri Mar 08 14:03:43 CST 2024","Fri Mar 08 14:05:24 CST 2024","100188","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27策略","
+"passed","Mon Mar 11 09:54:35 CST 2024","Mon Mar 11 09:56:15 CST 2024","100255","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27策略","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "
-"passed","Fri Mar 08 14:05:24 CST 2024","Fri Mar 08 14:05:24 CST 2024","248","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27策略任务","
+"passed","Mon Mar 11 09:54:35 CST 2024","Mon Mar 11 09:54:35 CST 2024","77","","main","TestLinuxMysql5_5CDM","","","创建mysql8.0.27应用","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "
-"passed","Fri Mar 08 14:03:43 CST 2024","Fri Mar 08 14:03:43 CST 2024","139","","main","TestLinuxMysql5_5CDM","","","cdm登录","
+"passed","Mon Mar 11 09:56:15 CST 2024","Mon Mar 11 09:56:15 CST 2024","63","","main","TestLinuxMysql5_5CDM","","","删除mysql8.0.27应用","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "
-"passed","Fri Mar 08 14:05:24 CST 2024","Fri Mar 08 14:05:24 CST 2024","77","","main","TestLinuxMysql5_5CDM","","","删除mysql8.0.27应用","
+"passed","Mon Mar 11 09:54:34 CST 2024","Mon Mar 11 09:54:35 CST 2024","154","","main","TestLinuxMysql5_5CDM","","","cdm登录","
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             "

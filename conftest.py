@@ -94,34 +94,11 @@ def init_class():
 
 
 @pytest.fixture(scope='function')
-def init_function(sql=f"""
-        SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn
-        FROM public.lblet
-        WHERE ip_addr='192.168.2.44';
-        """):
+def init_function(ip):
     print("这是测试方法的前置")
-    postgres_handler = PostgresHandler("192.168.2.130", "postgres", "postgres", "123")
-    logging.warning(f"{sql=}")
-    query_result = postgres_handler.execute_query(sql)
-    id, ip_addr, os, os_version, version, iqn = None, None, None, None, None, None
-    for row in query_result:
-        # 使用字段名访问值
-        id = row.id  # 替换为你的实际字段名
-        logging.warning(f"{id=}")
-        ip_addr = row.ip_addr
-        logging.warning(f"{ip_addr=}")
-        os = row.os
-        logging.warning(f"{os=}")
-        os_version = row.os_version
-        logging.warning(f"{os_version=}")
-        version = row.version
-        logging.warning(f"{version=}")
-        iqn = row.iqn
-        logging.warning(f"{iqn=}")
     a = 888
-    yield id, ip_addr, os, os_version, version, iqn  # 如果fixture返回值要传递给用例
+    yield a
     print("这是测试方法的后置")
-    logging.warning(f"{id}, {ip_addr}, {os}, {os_version}, {version}, {iqn}")
 
 
 @pytest.fixture(scope='function')
@@ -153,7 +130,7 @@ def gggg(request):
 
 
 def test_a(init_function):
-    print(999, init_function)
+    print(init_function[1])
 
 
 def test_b(gggg):

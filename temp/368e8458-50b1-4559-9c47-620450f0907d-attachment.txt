@@ -1,0 +1,31 @@
+[32mINFO    [0m commons.cases:cases.py:80 {}
+[32mINFO    [0m commons.cases:cases.py:81 uuuuuuuuuuuuu
+[32mINFO    [0m commons.cases:cases.py:92 ============================用例开始执行: 创建mysql8.0.27策略=============================
+[33mWARNING [0m root:funcs.py:89 sql='\n            SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn\n            FROM public.lblet\n            WHERE ip_addr=\'192.168.2.44\';\n            '
+[33mWARNING [0m root:funcs.py:106 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0
+[33mWARNING [0m root:funcs.py:89 sql='\n            SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn\n            FROM public.lblet\n            WHERE ip_addr=\'192.168.2.44\';\n            '
+[33mWARNING [0m root:funcs.py:106 94, 192.168.2.44, 1, redhat rhel 7.6, v1.8.0-3+3d695a08027f3f, iqn.1994-05.com.redhat:b96dac1633f0
+[32mINFO    [0m commons.cases:cases.py:96 1. 正在注入变量...
+[32mINFO    [0m commons.cases:cases.py:100 2. 正在请求接口...
+[32mINFO    [0m requests.session:session.py:50 发送请求>>>>>> 接口地址 = POST http://192.168.2.130:9090/api/admin.v1.ProtectionStrategy/Add
+[32mINFO    [0m requests.session:session.py:51 发送请求>>>>>> 请求头 = {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzEwMTY1MjY4LCJpYXQiOjE3MTAxMjIwNjgsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.8eGq9E3WHT73naitnwDuE_IRtZB87mqW4v8r9I2z-RE', 'Content-Length': '437', 'Content-Type': 'application/json'}
+[32mINFO    [0m requests.session:session.py:52 发送请求>>>>>> 请求正文 = b'{"able": false, "applicationID": 1588, "backupKind": 1, "cronExpression": "* * * * ?", "datasets": [{"appKind": 2, "backupKind": 1, "protectedObjects": [{"lbletId": 94, "targetId": 1588, "targetType": 1}], "protectionCapacity": 10737418240}], "logPeriod": 0, "name": "my44", "password": "", "poolID": 34, "protocol": 1, "protocolValue": "iqn.1994-05.com.redhat:b96dac1633f0", "sla": {"chain": "{\\"keep\\":1,\\"goldenCopyLeastNumber\\":7}"}}'
+[32mINFO    [0m requests.session:session.py:56 接收响应      <<<<<< 状态码 = 200
+[32mINFO    [0m requests.session:session.py:57 接收响应      <<<<<< 响应头 = {'Access-Control-Allow-Credentials': 'true', 'Access-Control-Allow-Headers': 'Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization', 'Access-Control-Allow-Methods': 'POST, PATCH, GET, OPTIONS, PUT, DELETE', 'Access-Control-Allow-Origin': '*', 'Content-Length': '44', 'Content-Type': 'application/json', 'Date': 'Mon, 11 Mar 2024 01:54:28 GMT'}
+[32mINFO    [0m requests.session:session.py:58 接收响应      <<<<<< 响应正文 = {"code":200,"msg":"success","data":"142860"}
+[32mINFO    [0m commons.cases:cases.py:104 3. 正在提取变量...
+[32mINFO    [0m commons.cases:cases.py:113 4. 正在断言...
+[32mINFO    [0m commons.models:models.py:101 assert 200 == 200, 状态码断言
+[32mINFO    [0m commons.cases:cases.py:118 ============================用例执行结束: 创建mysql8.0.27策略=============================
+[33mWARNING [0m commons.cases:cases.py:122 [95m准备进行结果检查......[0m
+[33mWARNING [0m root:funcs.py:220 sql='\n            SELECT state\n            FROM public."event"\n            WHERE id=142860;\n        '
+[33mWARNING [0m root:funcs.py:226 state=1
+[33mWARNING [0m root:funcs.py:220 sql='\n            SELECT state\n            FROM public."event"\n            WHERE id=142860;\n        '
+[33mWARNING [0m root:funcs.py:226 state=1
+[33mWARNING [0m root:funcs.py:220 sql='\n            SELECT state\n            FROM public."event"\n            WHERE id=142860;\n        '
+[33mWARNING [0m root:funcs.py:226 state=1
+[33mWARNING [0m root:funcs.py:220 sql='\n            SELECT state\n            FROM public."event"\n            WHERE id=142860;\n        '
+[33mWARNING [0m root:funcs.py:226 state=1
+[33mWARNING [0m root:funcs.py:220 sql='\n            SELECT state\n            FROM public."event"\n            WHERE id=142860;\n        '
+[33mWARNING [0m root:funcs.py:226 state=2
+[32mINFO    [0m commons.cases:cases.py:127 [95mpost_function(check_create_ok)返回值为: True[0m

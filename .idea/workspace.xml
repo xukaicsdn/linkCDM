@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c44dc3d-eaf7-4149-8bbc-f1d80515755a" name="Default Changelist" comment="首次提交">
+      <change beforePath="$PROJECT_DIR$/commons/cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/extract.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_134815_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_134815_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_135105_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_135105_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_135715_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_135716_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_140046_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_140046_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_140343_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_140343_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_144505_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_144505_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_145026_gw0_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20240308_145026_gw1_pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pytest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/25d792e862c09db7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/29d752fb3960ddd1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/70b5d86b211079af.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/97184fad541caead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/bb2312daf1a4a554.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/attachments/fe064f9de1f1b626.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1ada6e2ad7560b9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1c4adc168a9992c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/1fa5c575d16d9995.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/8034f3a8ef9c0b9a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/93ee2cea32e424a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/test-cases/bc3749e10df2e646.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/0f3ba02f-2845-422b-ace8-cf9e54a6e5de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/2363b320-fc57-43da-a437-77225fb505df-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/2c484251-c856-4543-8538-825723b9e6ef-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/9355d8ec-1dcb-46e5-bf08-90a199f5b971-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/a1ebc4b4-c5ab-4c83-86b5-d0264506368c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/b27e6fe8-28dd-4890-97df-2a8f31936ea6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/bf0fc613-3a6c-4b42-b95e-9c806ffff607-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/d03d366c-7bdb-448c-837b-b81daf36d0be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/d8d0c2e9-a6db-4f37-a8be-70e9a89d4320-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_2_创建应用.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_2_创建应用.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_3_创建策略.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_3_创建策略.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_4_创建策略任务.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_4_创建策略任务.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_5_删除策略.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_5_删除策略.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_6_删除应用.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_6_删除应用.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/commons/exchange.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_5_删除策略.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commons/models.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commons/cases.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_6_删除应用.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/cdm/login/test_3_删除应用.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commons/funcs.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commons/session.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/cdm/login/test_2_创建应用.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commons/files.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data/extract.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_3_创建策略.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_4_创建策略任务.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testcases/debug/mysql/mysql_cdm/linux7_mysql8.0.24_cdm/test_2_创建应用.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xukai/yamlMany01.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/xukai/yamlMany02.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OSLjmZMTmEkqPPJ0Ojw5uJWR3W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework_v240301.1\testcases\debug\mysql\linux_mysql8.0.34_cdm" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework_v240301.1\testcases\debug\oracle\oracleCDM单节点" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework_v240301.1\report" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework\commons" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework\testcases\debug\oracle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework_v240301.1\testcases\debug\mysql\mysql_cdm" />
+      <recent name="C:\Users\admin\temp\api_framework\api_framework\testcases\ddt\bbb" />
+      <recent name="C:\Users\admin\temp\api_framework\api_framework\testcases\ddt\aaa" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework\testcases\debug\mysql\mysqlCDM" />
+      <recent name="E:\Program Files (x86)\JetBrains\PyCharm 2021.1.3\workspace\api_framework\testcases\debug\mysql\mysqlCDM\创建应用" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.funcs">
+    <configuration name="cases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/cases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="funcs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/funcs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.funcs" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.conftest" />
+        <item itemvalue="Python.files" />
+        <item itemvalue="Python.cases" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c44dc3d-eaf7-4149-8bbc-f1d80515755a" name="Default Changelist" comment="" />
+      <created>1681549177796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681549177796</updated>
+      <workItem from="1681549180115" duration="4695000" />
+      <workItem from="1681567283419" duration="139396000" />
+      <workItem from="1683765874765" duration="6908000" />
+      <workItem from="1683852312505" duration="32000" />
+      <workItem from="1683852353274" duration="26992000" />
+      <workItem from="1684198046658" duration="169617000" />
+      <workItem from="1688377685011" duration="12000" />
+      <workItem from="1688377710523" duration="44000" />
+      <workItem from="1688377764841" duration="16461000" />
+      <workItem from="1688967956776" duration="8152000" />
+      <workItem from="1689658516341" duration="606000" />
+      <workItem from="1693291115255" duration="13000" />
+      <workItem from="1693291180319" duration="1786000" />
+      <workItem from="1693293000978" duration="16000" />
+      <workItem from="1693293027373" duration="10081000" />
+      <workItem from="1695348312544" duration="27000" />
+      <workItem from="1695348349847" duration="51290000" />
+      <workItem from="1697164687490" duration="1793000" />
+      <workItem from="1697166528203" duration="19398000" />
+      <workItem from="1697418531146" duration="73848000" />
+      <workItem from="1698719398188" duration="9163000" />
+      <workItem from="1702276831621" duration="1362000" />
+      <workItem from="1702344564738" duration="105451000" />
+      <workItem from="1704693749886" duration="45966000" />
+      <workItem from="1704957909613" duration="12000000" />
+      <workItem from="1705039397448" duration="411000" />
+      <workItem from="1705279217783" duration="12070000" />
+      <workItem from="1706168749879" duration="1676000" />
+      <workItem from="1706766005549" duration="41755000" />
+      <workItem from="1706865599193" duration="230000" />
+      <workItem from="1706865841625" duration="7176000" />
+      <workItem from="1708495180942" duration="1033000" />
+      <workItem from="1708496740866" duration="22535000" />
+      <workItem from="1709281053055" duration="15000" />
+      <workItem from="1709281115394" duration="596000" />
+      <workItem from="1709281743765" duration="90620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_framework$project_path.coverage" NAME="project_path Coverage Results" MODIFIED="1681982564294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../APItest_unittest_cmp-master/dataconfig" />
+    <SUITE FILE_PATH="coverage/api_framework$ledger.coverage" NAME="ledger Coverage Results" MODIFIED="1704164082192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$templates.coverage" NAME="templates Coverage Results" MODIFIED="1709170571128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$cases.coverage" NAME="cases Coverage Results" MODIFIED="1709801988862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$yamlMany01__1_.coverage" NAME="yamlMany01 (1) Coverage Results" MODIFIED="1682228727029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework$casexukai.coverage" NAME="casexukai Coverage Results" MODIFIED="1683599501329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$yamlMany02.coverage" NAME="yamlMany02 Coverage Results" MODIFIED="1683528751349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework$test_01.coverage" NAME="test_01 Coverage Results" MODIFIED="1684389461402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1685589737810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$files.coverage" NAME="files Coverage Results" MODIFIED="1709863046631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$funcs.coverage" NAME="funcs Coverage Results" MODIFIED="1710302013942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$databases.coverage" NAME="databases Coverage Results" MODIFIED="1709519800828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$aaaaaaaa.coverage" NAME="aaaaaaaa Coverage Results" MODIFIED="1684488489831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$ffffffffffff.coverage" NAME="ffffffffffff Coverage Results" MODIFIED="1704251014096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$yamlMany01.coverage" NAME="yamlMany01 Coverage Results" MODIFIED="1693378568969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework$models.coverage" NAME="models Coverage Results" MODIFIED="1681723729582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$calculation_ledger.coverage" NAME="calculation_ledger Coverage Results" MODIFIED="1704162324308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$download_file__1_.coverage" NAME="download_file (1) Coverage Results" MODIFIED="1705020786720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$haibao.coverage" NAME="haibao Coverage Results" MODIFIED="1682044954379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/sundry" />
+    <SUITE FILE_PATH="coverage/api_framework$ff.coverage" NAME="ff Coverage Results" MODIFIED="1684231892616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework$main.coverage" NAME="main Coverage Results" MODIFIED="1709171261952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$files.coverage" NAME="files Coverage Results" MODIFIED="1709175564900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$pdf_docx01.coverage" NAME="pdf-docx01 Coverage Results" MODIFIED="1697176364149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/sundry" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$main.coverage" NAME="main Coverage Results" MODIFIED="1710122073109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$modifying_pdf_file_name.coverage" NAME="modifying_pdf_file_name Coverage Results" MODIFIED="1697522165697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/sundry" />
+    <SUITE FILE_PATH="coverage/api_framework$pdf_docx.coverage" NAME="pdf-docx Coverage Results" MODIFIED="1702344633835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/sundry" />
+    <SUITE FILE_PATH="coverage/api_framework$session.coverage" NAME="session Coverage Results" MODIFIED="1702359645981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$pdf_image.coverage" NAME="pdf_image Coverage Results" MODIFIED="1688970482016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/sundry" />
+    <SUITE FILE_PATH="coverage/api_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1708649926945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$jjjjjj.coverage" NAME="jjjjjj Coverage Results" MODIFIED="1705903477217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/二阶段/数据结构" />
+    <SUITE FILE_PATH="coverage/api_framework$templatesxukai.coverage" NAME="templatesxukai Coverage Results" MODIFIED="1684894449343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$yamlMany.coverage" NAME="yamlMany Coverage Results" MODIFIED="1695622274718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework$funcs.coverage" NAME="funcs Coverage Results" MODIFIED="1702360885790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$yamlIni.coverage" NAME="yamlIni Coverage Results" MODIFIED="1681826150953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xukai" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1709886893781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1704894957927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$test_aaa.coverage" NAME="test_aaa Coverage Results" MODIFIED="1709168321097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$copy_image_directory.coverage" NAME="copy_image_directory Coverage Results" MODIFIED="1704866089489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_xk/zzc" />
+    <SUITE FILE_PATH="coverage/api_framework$cases.coverage" NAME="cases Coverage Results" MODIFIED="1695624167645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$templ.coverage" NAME="templ Coverage Results" MODIFIED="1685256501602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework_v240301_1$test_aaa.coverage" NAME="test_aaa Coverage Results" MODIFIED="1709689604541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api_framework$funcs111111.coverage" NAME="funcs111111 Coverage Results" MODIFIED="1695361612685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/api_framework$reader.coverage" NAME="reader Coverage Results" MODIFIED="1683871086480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/yaml" />
+  </component>
+</project>

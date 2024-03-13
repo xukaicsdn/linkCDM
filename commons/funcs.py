@@ -76,6 +76,53 @@ def rsa_decode(content):
     return ras_value.decode()  # 转字符串
 
 
+def get_lblet_info(ip: str, field: str):
+    """
+        由于yaml中不支持函数带下标，如get_lblet_info(192.168.2.44)[1]，只能这样写了
+    """
+    sql = f"""
+            SELECT id, ip_addr, app_kinds, os, os_version, "version", iqn
+            FROM public.lblet
+            WHERE ip_addr='{ip}';
+            """
+    postgres_handler = PostgresHandler("192.168.2.130", "postgres", "postgres", "123")
+    logging.warning(f"{sql=}")
+    query_result = postgres_handler.execute_query(sql)
+    id, ip_addr, os, os_version, version, iqn = None, None, None, None, None, None
+    for row in query_result:
+        # 使用字段名访问值
+        id = row.id  # 替换为你的实际字段名
+        # logging.warning(f"{id=}")
+        ip_addr = row.ip_addr
+        # logging.warning(f"{ip_addr=}")
+        os = row.os
+        # logging.warning(f"{os=}")
+        os_version = row.os_version
+        # logging.warning(f"{os_version=}")
+        version = row.version
+        # logging.warning(f"{version=}")
+        iqn = row.iqn
+        # logging.warning(f"{iqn=}")
+    logging.warning(f"{id}, {ip_addr}, {os}, {os_version}, {version}, {iqn}")
+    # return id, ip_addr, os, os_version, version, iqn  # 如果fixture返回值要传递给用例
+    if field == "id":
+        return id
+    elif field == "ip_addr":
+        return ip_addr
+    elif field == "os":
+        return os
+    elif field == "os_version":
+        return os_version
+    elif field == "version":
+        return version
+    elif field == "iqn":
+        return iqn
+    else:
+        raise ValueError("Invalid argument")
+
+
+
+
 def add(content, num):
     return int(content) + int(num)
 
@@ -216,3 +263,5 @@ if __name__ == '__main__':
     print(base64_b64encode("Howlink@1024"))
     print(base64_b64encode("Howlink@1401"))
     print(base64_b64decode("U0c5M2JHbHVhMEF4TkRBeA=="))
+
+    print(get_lblet_info('192.168.2.44', 'id'))

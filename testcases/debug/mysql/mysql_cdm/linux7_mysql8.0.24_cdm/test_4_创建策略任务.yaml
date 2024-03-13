@@ -22,3 +22,5 @@ validate:
     状态码断言:
       - 200
       - ${code}
+
+#is_run: 1

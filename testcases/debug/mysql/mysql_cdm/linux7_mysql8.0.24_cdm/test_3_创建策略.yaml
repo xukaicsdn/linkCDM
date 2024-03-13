@@ -15,11 +15,11 @@ request:
         protectedObjects:
           - targetId: ${application_id}
             targetType: 1
-            lbletId: "94"
+            lbletId: "${get_lblet_info(192.168.2.44, id)}"
         protectionCapacity: 10737418240
     poolID: 34
     protocol: 1
-    protocolValue: iqn.1994-05.com.redhat:b96dac1633f0
+    protocolValue: ${get_lblet_info(192.168.2.44, iqn)}
     sla:
       chain: "{\"keep\":1,\"goldenCopyLeastNumber\":7}"
     logPeriod: 0
@@ -43,3 +43,5 @@ validate:
       - ${code}
 
 post_function: check_create_ok
+
+#is_run: 1

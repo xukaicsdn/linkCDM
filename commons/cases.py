@@ -63,6 +63,10 @@ class TestApi:  # 声明可以被pytest识别的测试类
             """
                 在pytest中，默认情况下，使用request作为参数名称可以自动传递pytest.FixtureRequest对象
             """
+            # 如果is_run为1，则跳过该测试用例
+            if case_info.is_run == 1:
+                pytest.skip("测试用例被设置为不运行。")
+
             # print("用例是否需要fixture", case_info.fixture_code)
             # yaml中的fixture名字已进入pytest
             # case_info  是yaml里的内容，是在原生参数化执行之后，得到的结果
@@ -71,7 +75,7 @@ class TestApi:  # 声明可以被pytest识别的测试类
 
             for fixture_name in case_info.fixture_code:
                 fixture_value[fixture_name] = request.getfixturevalue(fixture_name)  # 动态调用fixture
-                # exchanger.replace(case_info.fixture_code)
+                exchanger.replace(case_info.fixture_code)
 
             logger.info(fixture_value)
             logger.info("uuuuuuuuuuuuu")

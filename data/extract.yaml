@@ -1,14 +1,11 @@
-access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzA5OTIzNTAzLCJpYXQiOjE3MDk4ODAzMDMsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.qE8P5dx5Izhh4ujqmIqIGfMzq-wiEHu9sP8knn-RXGA
-application_id: '1576'
+access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjU1NiwiZXhwIjoxNzEwMTY1MjY4LCJpYXQiOjE3MTAxMjIwNjgsImlzcyI6ImNvbS5ob3dsaW5rLmNkbS5hZG1pbiJ9.8eGq9E3WHT73naitnwDuE_IRtZB87mqW4v8r9I2z-RE
+application_id: '1588'
 code: '200'
-create_strategy_event_id: '142453'
+create_strategy_event_id: '142860'
 ffffff: null
 gggg: 666666666666
 init_function: !!python/tuple
 - 94
 - 192.168.2.44
 - 1
-- redhat rhel 7.6
-- v1.8.0-3+3d695a08027f3f
-- iqn.1994-05.com.redhat:b96dac1633f0
-strategy_id: '2910'
+strategy_id: '2914'

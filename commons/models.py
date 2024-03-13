@@ -32,6 +32,7 @@ class CaseInfo:
     feature: str = settings.allure_feature
     story: str = settings.allure_story
 
+    is_run: str = ""  # 非必传，等于1代表跳过此用例
     post_function: str = ""
 
     def __post_init__(self):
